@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Reservation</title>
+</head>
+<body>
+	<form method="get" action="ViewDetails.jsp">
+		Flight Number: <input type="number" name="flno"/><br/>
+		Date: <input type="date" name="date"/><br/>
+		Name: <input type="text" name="name"/><br/>
+		Mobile Number: <input type="number" name="number"/><br/>
+		<input type="submit" value="Reserve"/>
+	</form><br/>
+	<hr/>
+	<form method="get" action="allFlights.jsp">
+		All flights on: <select name="day">
+			<option value="monday">monday</option>
+			<option value="tuesday">tuesday</option>
+			<option value="wednesday">wednesday</option>
+			<option value="thursday">thursday</option>
+			<option value="friday">friday</option>
+			<option value="satday">satday</option>
+			<option value="sunday">sunday</option>
+		</select>
+		<input type="submit" value ="search"/>
+	</form>
+</body>
+</html>
