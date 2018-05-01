@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Buy Tshirt</title>
+</head>
+<body>
+	<form action="BuyShirtServlet" method="get">
+		<label>Accessories: 
+		belt<input type="checkbox" name="accessories" value="belt"/> 
+		cap <input type="checkbox" name="accessories" value="cap"/> 
+		hair-band<input type="checkbox" name="accessories" value="band"/></label><br/>
+		<label>Tag Line: <textarea name="tag"></textarea></label><br/>
+		<label>color<select name="color">
+			<option value="Red">Red</option>
+			<option value="Blue">Blue</option>
+			<option value="Black">Black</option>
+		</select></label></br>
+		<label>Chest Pocket: <input type="radio" name="pocket" value="1"/>yes <input type="radio" name="pocket" value="0"/>No </label><br/>
+		<input type="submit" value="submit"/>
+	</form>
+</body>
+</html>
